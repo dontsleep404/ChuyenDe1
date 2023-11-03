@@ -1,0 +1,170 @@
+@charset "ISO-8859-1";
+header {
+	background-color: #EFD033 ;
+}
+
+header .bottom-navbar {
+	background-color: #FBF38A;
+}
+
+body {
+	color: #986E19;
+}
+
+footer .large-block {
+	background-color: #FBF38A;
+	border-top: solid 3px #ff9a3c;
+}
+
+footer .small-block {
+	background-color: #EFD033;
+	color: #E28D00;
+}
+
+footer .small-block a {
+	color: #523F21;
+	text-decoration: none;
+}
+
+footer .small-block a:hover {
+	color: #ff9a3c;
+}
+
+.login-modal {
+ 	top: 30%;
+ 	z-index: 99;
+}
+
+.login-modal .login-box {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.home-body {
+	background-image: url("../pic/asm2.png");
+	background-size: cover;
+	height: 700px;
+}
+
+/*Style the login page*/
+.logoutbutton {
+	color: #ffffff;
+	background-color: #991923;
+	border: hidden;
+	height: 30px;
+	width: 100px;
+	border: 1px #67AC5B;
+	border-radius: 10px;
+}
+.forgotpassword {
+	text-decoration: none;
+	color: #000000;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+	float: left;
+	width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+	float: left;
+	width: 25%;
+	padding-left: 20px;
+}
+
+
+/* Fake image */
+.fakeimg {
+	background-color: #aaa;
+	width: 100%;
+	padding: 20px;
+}
+
+.welcome {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate( -50%, -50%);
+	height: 100px;
+	width: 200px;
+	text-align:center;
+	background: #f2f2f2;
+	border:none;
+	border-radius: 5px;
+}
+
+.welcome p{
+	position: absolute;
+    top: 35%;
+    width: 100%;
+    transform: translateY( -50%);
+    color: #333333;
+    margin: auto;
+}
+
+table caption {
+	text-align: left;
+	height: 30px;
+	padding: 10px;
+	background: #EFD033;
+	margin: 10px 10px;
+	margin-bottom: 10px;
+	border: none;
+	border-radius: 3px;
+}
+table tr th:first-child ,td:first-child {
+	width: 100px;
+}
+table tr th:nth-child(2),td:nth-child(2){
+	width: 200px;
+}
+table tr th:nth-child(3),td:nth-child(3){
+	width: 300px;
+}
+table tr th:nth-child(4),td:nth-child(4){
+	width: 200px;
+}
+table tr th{
+	text-align: left;
+	padding-top: 10px;
+}
+table{
+	border-collapse: collapse;
+	margin: auto;
+	color: black;
+}
+table tr{
+	height: 30px;
+	padding: 10px;
+	border-top: 1px solid #f2f2f2;
+}
+
+.loggedinpage {
+	padding: 0px;
+	background: #FBF38A;
+	color: #f2f2f2;
+}
+.loggedinleft {
+	float: left;
+	width: 20%;
+	height: 100vh;
+	background: #EFD033;
+	color: black;
+}
+
+.loggedinleft h2,p {
+	margin-left: 50px;
+}
+
+.loggedinright {
+	float: right;
+	width: 80%;
+}
+.info {
+	position: absolute;
+	top: 1em;
+	right: 1em;
+	display: inline;
+}
